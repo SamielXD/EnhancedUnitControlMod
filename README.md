@@ -77,11 +77,11 @@ Access settings through: **Settings → Unit Control**
 ## Compatibility
 
 Works with:
-- ✅ Mobile (Android/iOS)
+- ✅ Mobile Android
 - ✅ Desktop (Windows/Mac/Linux)
 - ✅ Campaign mode
 - ✅ Custom maps
-- ✅ Multiplayer (client-side only)
+- ❎Multiplayer
 
 ## Development
 
@@ -110,8 +110,8 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ## Support
 
 If you encounter bugs or have suggestions:
-- Open an issue on [GitHub](https://github.com/SamielXD/UnitControlMod/issues)
-- Contact me on Discord: smaielkun
+- Open an issue on [GitHub](https://github.com/SamielXD/EnhancedUnitControlMod/issues)
+- Contact me on Discord: @samielkun
 
 ---
 
