@@ -1,0 +1,172 @@
+name: "unitcontrol"
+
+displayName: "Enhanced Unit Control"
+
+author: "[#00D4FF[]]SamielXD[[]]"
+
+description:
+  '''
+[accent[]]Enhanced Unit Control v1.0 - Give Your Units Some Orders[[]]
+
+[white[]]Tap a unit, tell it what to do. That's basically it. Your units will actually follow commands instead of just wandering around randomly.[[]]
+
+[yellow[]]⚠️ First release, so there might be some bugs. Works on mobile and desktop. If something breaks, let me know.[[]]
+
+[accent[]]━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[[]]
+
+[lime[]]What's this for?[[]]
+
+Ever wanted your units to guard a specific spot? Or patrol an area? Or just follow you around? Now you can. Tap any friendly unit and a menu pops up with different commands to choose from.
+
+The units will keep doing what you told them until you give them a new command or tell them to stop. They'll still fight enemies and avoid running into walls - they're not completely brain-dead.
+
+[accent[]]━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[[]]
+
+[cyan[]]Commands you can use:[[]]
+
+[gold[]]Basic stuff:[[]]
+
+[white[]]🔄 Patrol[[]] - Walk back and forth between two points
+  • You set the distance (50-600 tiles)
+  • They'll attack enemies while patrolling
+  • Good for defensive lines
+
+[white[]]🛡️ Guard[[]] - Stay at a position and defend it
+  • Attacks enemies within range (220 tiles)
+  • Goes back to the guard spot when done
+  • Put these near your important buildings
+
+[white[]]⚔️ Attack Move[[]] - Move forward and attack anything hostile
+  • Set how far they should go (100-700 tiles)
+  • They'll stop to fight enemies they find
+  • Good for pushing into enemy territory
+
+[white[]]👤 Follow[[]] - Follow your player unit around
+  • Keeps about 65 tiles away from you
+  • Still fights nearby enemies
+  • Helpful for escorts or backup
+
+[white[]]⏸️ Hold[[]] - Just stay in one spot
+  • Won't move much at all
+  • Still shoots at enemies in range
+  • Use it when you need a unit to stay put
+
+[gold[]]Extra commands:[[]]
+
+[white[]]⭕ Circle[[]] - Move in circles around a point
+  • You pick the circle size (30-300 tiles)
+  • Keeps moving in a circle constantly
+  • Makes them harder to hit
+
+[white[]]🏃 Retreat[[]] - Run away from danger
+  • Moves 250 tiles away quickly
+  • Faster than normal movement
+  • Use when a unit is about to die
+
+[white[]]📐 Formation[[]] - Follow you in an organized line
+  • Units space themselves out automatically
+  • Looks neat and keeps them organized
+  • Better than everyone bunching up
+
+[white[]]🤝 Assist[[]] - Help nearby friendly units
+  • Finds the closest ally and helps them fight
+  • Follows them around and attacks their targets
+  • Good for team tactics
+
+[white[]]⛏️ Auto Mine[[]] - Mine resources automatically
+  • Only works if the unit can mine
+  • Finds ore and mines it automatically
+  • Saves you from doing it manually
+
+[white[]]💥 Kamikaze[[]] - Rush at enemies and explode
+  • Runs at the nearest enemy really fast
+  • Deals damage when it hits
+  • The unit dies after this (obviously)
+
+[white[]]❌ Stop[[]] - Cancel the current command
+  • Unit goes back to normal behavior
+  • Clears whatever it was doing
+  • Start fresh
+
+[accent[]]━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[[]]
+
+[lime[]]How to use it:[[]]
+
+1. Tap any friendly unit
+2. A menu shows up with all the commands
+3. Pick one
+4. The unit does it
+
+That's it. Pretty simple.
+
+If you want to turn off the popup menus (but keep the commands working), go to Settings and look for "Unit Control". You can disable the UI there. Commands will still work on units you already gave orders to.
+
+[accent[]]━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[[]]
+
+[cyan[]]Settings options:[[]]
+
+In the settings menu under "Unit Control" you'll find:
+
+[white[]]UI Popup Control[[]] - Turn the command menu on/off
+  • When off, no dialogs pop up when you tap units
+  • Commands you already gave still work though
+  • Good if you want a clean screen
+
+[white[]]Debug Mode[[]] - Shows extra info in console
+  • Only useful if something's broken
+  • Prints command info to the log
+  • Most people won't need this
+
+[white[]]Command Guide[[]] - Opens a help screen
+  • Lists all the commands and what they do
+  • Shows the distance ranges and stuff
+  • Check here if you forget what something does
+
+[white[]]Status Info[[]] - Shows current stats
+  • How many units you're controlling
+  • Which commands are active
+  • Breakdown of what each unit is doing
+
+[white[]]Clear All Commands[[]] - Reset everything
+  • Removes commands from all units
+  • They go back to normal AI
+  • Use if things get messy
+
+[accent[]]━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[[]]
+
+[yellow[]]Some things to know:[[]]
+
+• You can control up to 50 units at once (performance reasons)
+• Commands stay active until you clear them or the unit dies
+• Works with any unit type - ground, air, whatever
+• The mod auto-cleans up dead units every few seconds
+• Some commands ask you to enter a distance - just type a number
+• Kamikaze requires a confirmation because it kills the unit
+
+[accent[]]━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[[]]
+
+[white[]]Known issues:[[]]
+
+• Sometimes units might get stuck on terrain (working on it)
+• Mining command doesn't work perfectly with all ore types
+• Formation spacing might look weird with very large units
+• If you spam-tap units really fast, the menu might bug out
+
+Nothing game-breaking. Just restart the map if something gets really weird.
+
+[accent[]]━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[[]]
+
+[lime[]]That's pretty much it[[]]
+
+Tap units, give them orders, watch them actually do useful stuff. The commands are all listed in the guide if you forget what they do.
+
+If you find bugs or have suggestions, let me know send them in github. This is the first version so there's definitely room for improvement.
+  '''
+
+version: "1.0"
+
+minGameVersion: 147
+
+dependencies: []
+
+repo: "SamielXD/EnhancedUnitControlMod"
